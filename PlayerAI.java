@@ -157,10 +157,10 @@ public class PlayerAI extends ClientAI {
 				toMake = getBetterMove(toMake, canShootTurret(x3, y3));
 				toMake = getBetterMove(toMake, canShootTurret(x4, y4));
 
-				toMake = getBetterMove(toMake, canShootOpponent(x1, y1));//look for the opponent and make the best move
+				/*toMake = getBetterMove(toMake, canShootOpponent(x1, y1));//look for the opponent and make the best move
 				toMake = getBetterMove(toMake, canShootOpponent(x2, y2));
 				toMake = getBetterMove(toMake, canShootOpponent(x3, y2));
-				toMake = getBetterMove(toMake, canShootOpponent(x4, y4));
+				toMake = getBetterMove(toMake, canShootOpponent(x4, y4));*/
 
 			}
 
